@@ -1,5 +1,5 @@
 # [29/01/2021] - version 0.0.2
-Forge Version : forge-35.1.37
+Forge Version : forge-35.1.37  
 Updated mods :
 - Iron Furnaces (*ironfurnaces-1.16.5-2.6.2.jar*)
 - Absent by Design (*absentbydesign-1.16.4-1.3.2.jar*)
