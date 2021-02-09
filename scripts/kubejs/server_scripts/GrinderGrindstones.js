@@ -1,4 +1,4 @@
-onEvent('jei.hide.items', event => {
+onEvent('recipes', event => {
 
   var Grindstones = [
 //    'grinder:grindstone_stone',
