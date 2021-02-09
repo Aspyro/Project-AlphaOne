@@ -1,6 +1,6 @@
 // Removes all the Material Expanded recipes that are not useful in this pack
 
-onEvent('recipe', event => {
+onEvent('recipes', event => {
 
   var WoodRelated = [
     'matex:gearwood'
