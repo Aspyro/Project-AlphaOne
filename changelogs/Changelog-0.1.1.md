@@ -11,6 +11,7 @@ Installed mods :
 - TellMe (tellme-forge-1.16.4-0.9.1.jar)
 - Mod Name Tooltip (modnametooltip_1.16.2-1.15.0.jar)
 - I Like Wood (ilikewood-1.16.4-5.0.0.0.jar)
+- Shulker Enchantments (shulker_enchantments-1.1.1.jar)
 
 Updated mods :
 - Dynamic Surroundings (DynamicSurroundings-1.16.4-4.0.3.5.jar > Dynamic Surroundings-1.16.4-4.0.3.9.jar)
