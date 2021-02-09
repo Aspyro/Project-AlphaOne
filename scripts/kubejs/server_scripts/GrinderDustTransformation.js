@@ -1,4 +1,4 @@
-onEvent('recipes' => event {
+onEvent('recipes', event => {
 
   const dustReplace = (first, second) => {
     event.replaceOutput({}, first, second)
