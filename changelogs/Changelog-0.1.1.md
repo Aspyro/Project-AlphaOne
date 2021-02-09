@@ -50,9 +50,10 @@ Completely revamped scripts. All changes were deleted and did better. All change
 Updated Configs :
 - [Material Expanded] Disabled Coal Nuggets, Mortars, Hammers, Aluminium Ore generation, Nickel Ore generation, Platinum Ore generation, Saltpeter Ore generation, Sulfur Ore generation, Thorium Ore generation, Titanium Ore generation, Tungsten Ore generation, Uranium Ore generation and Zinc Ore generation.
 - [Large Fluid Tank] Changed *usableInvisibleInRecipe* and *usableUnavailableTankInRecipe* to *false*.
+- [Grinder] Delete the recipe of Aluminium Grindstone, Nickel Grindstone, Platinum Grindstone, Mercury Grindstone, Zinc Grindstone, Bismuth Grindstone, Uranium Grindstone, Ardite Grindstone, Cobalt Grindstone, Zitrite Grindstone, Rainbow Grindstone, Starmetal Grindstone, Tungsten Grindstone & Iesnium Grindstone and hide it from JEI.
 
 ## To-Do
-- [Grinder] Delete the recipe of Aluminium Grindstone, Nickel Grindstone, Platinum Grindstone, Mercury Grindstone, Zinc Grindstone, bismuth Grindstone, Uranium Grindstone, Ardite Grindstone, Cobalt Grindstone, Zitrite Grindstone, Rainbow Grindstone, Starmetal Grindstone, Tungsten Grindstone & Iesnium Grindstone and hide it from JEI
+
 - [Grinder] Delete the recipes for/with the Grinder dusts
 - [Material Expanded] Add the recipes for the dusts in the Grinder.
 - Delete the vanilla tools/bookshelf/barrel/chest/ladder/torch/crafting table/Scaffohlding/item frame/bed/lectern/composter/stick/bow/crossbow/ because there is *I Like Wood* version & change crafts using panels to use the planks variation.
