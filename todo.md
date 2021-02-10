@@ -1,2 +1,0 @@
-- In `Iron Furnaces` config file (`ironfurnaces.toml`) : disable the rainbow content and delete script lines from `kubejs/client_scripts/script.js` and `kubejs/server_scripts/script/js`
-- Remove `Better Animal Models` mod
