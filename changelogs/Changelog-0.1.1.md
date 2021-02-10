@@ -1,4 +1,4 @@
-# [09/02/2021] - Version 0.1.1 (temporary)  
+# [10/02/2021] - Version 0.1.1 (temporary)  
 Forge version : forge-35.1.37  
 
 Installed mods :
@@ -15,12 +15,12 @@ Installed mods :
 
 Updated mods :
 - Dynamic Surroundings (DynamicSurroundings-1.16.4-4.0.3.5.jar > Dynamic Surroundings-1.16.4-4.0.3.9.jar)
-- KubeJS (kubejs-1605.3.5-build.156-forge.jar > kubejs-1605.3.6-build.163-forge.jar)
+- KubeJS (kubejs-1605.3.5-build.156-forge.jar > kubejs-1605.3.6-build.164-forge.jar)
 - Rhino (rhino-1.7.13-build.12.jar > rhino-1.7.13-build.14.jar)
 - Tool Stats (ToolStats-1.16.4-5.0.1.jar > ToolStats-1.16.4-5.0.2.jar)
 - YUNG's API (YungsApi-1.16.4-Forge-3.jar > YungsApi-1.16.4-Forge-4.jar)
 - Polymorph (polymorph-forge-1.16.4-0.23.jar > polymorph-forge-1.16.5-0.24.jar)
-- Architectury (architectury-1.5.104-forge.jar > architectury-1.5.109.jar)
+- Architectury (architectury-1.5.104-forge.jar > architectury-1.5.110.jar)
 - Just Enough Items (jei-1.16.4-7.6.1.65.jar > jei-1.16.4-7.6.1.71.jar)
 - CraftTweaker (CraftTweaker-1.16.5-7.1.0.106.jar > CraftTweaker-1.16.5-7.1.0.119.jar)
 - FTB Chunks (ftb-chunks-1604.2.2.61.jar > ftb-chunks-1604.2.2.62.jar)
@@ -30,7 +30,7 @@ Updated mods :
 - RandomPatches (randompatches-2.2.1-forge.jar > randompatches-2.4.0-forge.jar)
 - Clumps (Clumps-6.0.0.13.jar > Clumps-6.0.0.15.jar)
 - Item Filters (item-filters-1605.2.3.27-forge.jar > item-filters-1605.2.4.28-forge.jar)
-- In Control! (incontrol-1.16-5.0.3.jar > incontrol-1.16-5.1.1.jar)
+- In Control! (incontrol-1.16-5.0.3.jar > incontrol-1.16-5.1.2.jar)
 - Iron Furnaces (ironfurnaces-1.16.5-2.6.2.jar > ironfurnaces-1.16.5-2.6.2.jar)
 - Snow! Real Magic! (SnowRealMagic-1.16.4-2.3.0.jar > SnowRealMagic-1.16.4-2.3.1.jar)
 - Aquaculture (Aquaculture-1.16.4-2.1.12.jar > Aquaculture-1.16.5-2.1.13.jar)
@@ -52,9 +52,9 @@ Updated Configs :
 - [Material Expanded] Disabled Coal Nuggets, Mortars, Hammers, Aluminium Ore generation, Nickel Ore generation, Platinum Ore generation, Saltpeter Ore generation, Sulfur Ore generation, Thorium Ore generation, Titanium Ore generation, Tungsten Ore generation, Uranium Ore generation and Zinc Ore generation.
 - [Large Fluid Tank] Changed *usableInvisibleInRecipe* and *usableUnavailableTankInRecipe* to *false*.
 - [Grinder] Delete the recipe of Aluminium Grindstone, Nickel Grindstone, Platinum Grindstone, Mercury Grindstone, Zinc Grindstone, Bismuth Grindstone, Uranium Grindstone, Ardite Grindstone, Cobalt Grindstone, Zitrite Grindstone, Rainbow Grindstone, Starmetal Grindstone, Tungsten Grindstone & Iesnium Grindstone and hide it from JEI.
+- [Grinder] Delete the recipes for/with the Grinder dusts
+- [Material Expanded] Add the recipes for the dusts in the Grinder.
 
 ## To-Do
 
-- [Grinder] Delete the recipes for/with the Grinder dusts
-- [Material Expanded] Add the recipes for the dusts in the Grinder.
 - Delete the vanilla tools/bookshelf/barrel/chest/ladder/torch/crafting table/Scaffohlding/item frame/bed/lectern/composter/stick/bow/crossbow/ because there is *I Like Wood* version & change crafts using panels to use the planks variation.
