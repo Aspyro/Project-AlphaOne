@@ -55,63 +55,63 @@ onEvent('jei.hide.items', event => {
   ]
   
   var CopperRelated = [
-    'matex:orecopper',        // Copper Ore
-    'matex:dustcopper',       // Copper Dust
-    'matex:ingotcopper',      // Copper Ingot
-    'matex:blockcopper',      // Copper Block
-    'matex:nuggetcopper',     // Copper Nugget
+//    'matex:orecopper',        // Copper Ore
+//    'matex:dustcopper',       // Copper Dust
+//    'matex:ingotcopper',      // Copper Ingot
+//    'matex:blockcopper',      // Copper Block
+//    'matex:nuggetcopper',     // Copper Nugget
     'matex:platecopper',      // Copper Plate
     'matex:rodcopper',        // Copper Rod
     'matex:gearcopper',       // Copper Gear
-    'matex:swordcopper',      // Copper Sword
-    'matex:shovelcopper',     // Copper Shovel
-    'matex:pickaxecopper',    // Copper Pickaxe
-    'matex:axecopper',        // Copper Axe
-    'matex:hoecopper',        // Copper Hoe
-    'matex:helmetcopper',     // Copper Helmet
-    'matex:chestplatecopper', // Copper Chestplate
-    'matex:leggingscopper',   // Copper Leggings
-    'matex:bootscopper'       // Copper Boots
+//    'matex:swordcopper',      // Copper Sword
+//    'matex:shovelcopper',     // Copper Shovel
+//    'matex:pickaxecopper',    // Copper Pickaxe
+//    'matex:axecopper',        // Copper Axe
+//    'matex:hoecopper',        // Copper Hoe
+//    'matex:helmetcopper',     // Copper Helmet
+//    'matex:chestplatecopper', // Copper Chestplate
+//    'matex:leggingscopper',   // Copper Leggings
+//    'matex:bootscopper'       // Copper Boots
   ]
   
   var TinRelated = [
-    'matex:oretin',         // Tin Ore
-    'matex:dusttin',        // Tin Dust
-    'matex:ingottin',       // Tin Ingot
-    'matex:blocktin',       // Tin Block
-    'matex:nuggettin',      // Tin Nugget
+ //   'matex:oretin',         // Tin Ore
+ //   'matex:dusttin',        // Tin Dust
+ //   'matex:ingottin',       // Tin Ingot
+ //   'matex:blocktin',       // Tin Block
+ //   'matex:nuggettin',      // Tin Nugget
     'matex:platetin',       // Tin Plate
     'matex:rodtin',         // Tin Rod
     'matex:geartin',        // Tin Gear
-    'matex:swordtin',       // Tin Sword
-    'matex:shoveltin',      // Tin Shovel
-    'matex:pickaxetin',     // Tin Pickaxe
-    'matex:axetin',         // Tin Axe
-    'matex:hoetin',         // Tin Hoe
-    'matex:helmettin',      // Tin Helmet
-    'matex:chestplatetin',  // Tin Chestplate
-    'matex:leggingstin',    // Tin Leggings
-    'matex:bootstin'        // Tin Boots
+ //   'matex:swordtin',       // Tin Sword
+ //   'matex:shoveltin',      // Tin Shovel
+ //   'matex:pickaxetin',     // Tin Pickaxe
+ //   'matex:axetin',         // Tin Axe
+ //   'matex:hoetin',         // Tin Hoe
+ //   'matex:helmettin',      // Tin Helmet
+ //   'matex:chestplatetin',  // Tin Chestplate
+ //   'matex:leggingstin',    // Tin Leggings
+ //   'matex:bootstin'        // Tin Boots
   ]
   
   var LeadRelated = [
-    'matex:orelead',        // Lead Ore
-    'matex:dustlead',       // Lead Dust
-    'matex:ingotlead',      // Lead Ingot
-    'matex:blocklead',      // Lead Block
-    'matex:nuggetlead',     // Lead Nugget
+ //   'matex:orelead',        // Lead Ore
+ //   'matex:dustlead',       // Lead Dust
+ //   'matex:ingotlead',      // Lead Ingot
+ //   'matex:blocklead',      // Lead Block
+ //   'matex:nuggetlead',     // Lead Nugget
     'matex:platelead',      // Lead Plate
     'matex:rodlead',        // Lead Rod
     'matex:gearlead',       // Lead Gear
-    'matex:swordlead',      // Lead Sword
-    'matex:shovellead',     // Lead Shovel
-    'matex:pickaxelead',    // Lead Pickaxe
-    'matex:axelead',        // Lead Axe
-    'matex:hoelead',        // Lead Hoe
-    'matex:helmetlead',     // Lead Helmet
-    'matex:chestplatelead', // Lead Chestplate
-    'matex:leggingslead',   // Lead Leggings
-    'matex:bootslead'       // Lead Boots
+ //   'matex:swordlead',      // Lead Sword
+ //   'matex:shovellead',     // Lead Shovel
+ //   'matex:pickaxelead',    // Lead Pickaxe
+ //   'matex:axelead',        // Lead Axe
+ //   'matex:hoelead',        // Lead Hoe
+ //   'matex:helmetlead',     // Lead Helmet
+ //   'matex:chestplatelead', // Lead Chestplate
+ //   'matex:leggingslead',   // Lead Leggings
+ //   'matex:bootslead'       // Lead Boots
   ]
   
   var AluminiumRelated = [
@@ -155,43 +155,43 @@ onEvent('jei.hide.items', event => {
   ]
   
   var OsmiumRelated = [
-    'matex:oreosmium',         // Osmium Ore
-    'matex:dustosmium',        // Osmium Dust
-    'matex:ingotosmium',       // Osmium Ingot
-    'matex:blockosmium',       // Osmium Block
-    'matex:nuggetosmium',      // Osmium Nugget
+//    'matex:oreosmium',         // Osmium Ore
+//    'matex:dustosmium',        // Osmium Dust
+//    'matex:ingotosmium',       // Osmium Ingot
+//    'matex:blockosmium',       // Osmium Block
+//    'matex:nuggetosmium',      // Osmium Nugget
     'matex:plateosmium',       // Osmium Plate
     'matex:rodosmium',         // Osmium Rod
     'matex:gearosmium',        // Osmium Gear
-    'matex:swordosmium',       // Osmium Sword
-    'matex:shovelosmium',      // Osmium Shovel
-    'matex:pickaxeosmium',     // Osmium Pickaxe
-    'matex:axeosmium',         // Osmium Axe
-    'matex:hoeosmium',         // Osmium Hoe
-    'matex:helmetosmium',      // Osmium Helmet
-    'matex:chestplateosmium',  // Osmium Chestplate
-    'matex:leggingsosmium',    // Osmium Leggings
-    'matex:bootsosmium'        // Osmium Boots
+//    'matex:swordosmium',       // Osmium Sword
+//    'matex:shovelosmium',      // Osmium Shovel
+//    'matex:pickaxeosmium',     // Osmium Pickaxe
+//    'matex:axeosmium',         // Osmium Axe
+//    'matex:hoeosmium',         // Osmium Hoe
+//    'matex:helmetosmium',      // Osmium Helmet
+//    'matex:chestplateosmium',  // Osmium Chestplate
+//    'matex:leggingsosmium',    // Osmium Leggings
+//    'matex:bootsosmium'        // Osmium Boots
   ]
   
   var SilverRelated = [
-    'matex:oresilver',         // Silver Ore
-    'matex:dustsilver',        // Silver Dust
-    'matex:ingotsilver',       // Silver Ingot
-    'matex:blocksilver',       // Silver Block
-    'matex:nuggetsilver',      // Silver Nugget
+//    'matex:oresilver',         // Silver Ore
+//    'matex:dustsilver',        // Silver Dust
+//    'matex:ingotsilver',       // Silver Ingot
+//    'matex:blocksilver',       // Silver Block
+//    'matex:nuggetsilver',      // Silver Nugget
     'matex:platesilver',       // Silver Plate
     'matex:rodsilver',         // Silver Rod
     'matex:gearsilver',        // Silver Gear
-    'matex:swordsilver',       // Silver Sword
-    'matex:shovelsilver',      // Silver Shovel
-    'matex:pickaxesilver',     // Silver Pickaxe
-    'matex:axesilver',         // Silver Axe
-    'matex:hoesilver',         // Silver Hoe
-    'matex:helmetsilver',      // Silver Helmet
-    'matex:chestplatesilver',  // Silver Chestplate
-    'matex:leggingssilver',    // Silver Leggings
-    'matex:bootssilver'        // Silver Boots
+//    'matex:swordsilver',       // Silver Sword
+//    'matex:shovelsilver',      // Silver Shovel
+//    'matex:pickaxesilver',     // Silver Pickaxe
+//    'matex:axesilver',         // Silver Axe
+//    'matex:hoesilver',         // Silver Hoe
+//    'matex:helmetsilver',      // Silver Helmet
+//    'matex:chestplatesilver',  // Silver Chestplate
+//    'matex:leggingssilver',    // Silver Leggings
+//    'matex:bootssilver'        // Silver Boots
   ]
   
   var TungstenRelated = [
@@ -441,6 +441,11 @@ onEvent('jei.hide.items', event => {
     NetheriteRelated,
     SaltpeterRelated,
     SulfurRelated,
+    CopperRelated,
+    TinRelated,
+    LeadRelated,
+    OsmiumRelated,
+    SilverRelated,
     AluminiumRelated,
     ZincRelated,
     TungstenRelated,
