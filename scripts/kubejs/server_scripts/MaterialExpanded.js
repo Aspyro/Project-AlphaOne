@@ -444,7 +444,7 @@ onEvent('recipes', event => {
     CopperRelated,
     TinRelated,
     LeadRelated,
-    OsmiumRelated
+    OsmiumRelated,
     SilverRelated,
     AluminiumRelated,
     ZincRelated,
