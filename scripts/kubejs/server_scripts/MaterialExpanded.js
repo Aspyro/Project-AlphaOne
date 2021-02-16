@@ -114,6 +114,26 @@ onEvent('recipes', event => {
 //    'matex:bootslead'       // Lead Boots
   ]
   
+    var InvarRelated = [
+    'matex:oreinvar',         // Invar Ore
+    'matex:dustinvar',        // Invar Dust
+    'matex:ingotinvar',       // Invar Ingot
+    'matex:blockinvar',       // Invar Block
+    'matex:nuggetinvar',      // Invar Nugget
+    'matex:plateinvar',       // Invar Plate
+    'matex:rodinvar',         // Invar Rod
+    'matex:gearinvar',        // Invar Gear
+    'matex:swordinvar',       // Invar Sword
+    'matex:shovelinvar',      // Invar Shovel
+    'matex:pickaxeinvar',     // Invar Pickaxe
+    'matex:axeinvar',         // Invar Axe
+    'matex:hoeinvar',         // Invar Hoe
+    'matex:helmetinvar',      // Invar Helmet
+    'matex:chestplateinvar',  // Invar Chestplate
+    'matex:leggingsinvar',    // Invar Leggings
+    'matex:bootsinvar'        // Invar Boots
+  ]
+  
   var AluminiumRelated = [
     'matex:orealuminium',         // Aluminium Ore
     'matex:dustaluminium',        // Aluminium Dust
@@ -447,6 +467,7 @@ onEvent('recipes', event => {
     OsmiumRelated,
     SilverRelated,
     AluminiumRelated,
+    InvarRelated,
     ZincRelated,
     TungstenRelated,
     PlatinumRelated,
