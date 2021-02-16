@@ -492,4 +492,9 @@ onEvent('recipes', event => {
       event.remove({output: element})   // Removes all the recipes where this element is a possible output
     })
   })
+  
+  
+    // Modded Miscellaneous Removed
+    event.remove({output : 'matex:toolmortar'})
+    event.remove({output: 'matex:toolmortarobsidian'})
 })
