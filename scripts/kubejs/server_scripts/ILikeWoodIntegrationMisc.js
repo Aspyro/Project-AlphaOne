@@ -66,4 +66,11 @@ onEvent('recipes', event => {
             S: 'ilikewood:' + element + '_stick'
         })
     })
+    
+    // Vanilla Miscellaneous removed
+    event.remove({output: 'minecraft:ladder'})
+    event.remove({output: 'minecraft:item_frame'})
+    event.remove({output: 'minecraft:bow'})
+    event.remove({output: 'minecraft:crossbow'})
+    
 })
