@@ -74,27 +74,6 @@ onEvent('recipes', event => {
             P: 'minecraft:' + element + '_planks'
         })
         
-        // Bows Recipes
-        event.shaped(Item.of('ilikewood:' + element + '_bow', 1), [
-            ' WS',
-            'W S',
-            ' WS',
-        ], {
-            W: 'ilikewood:' + element + '_stick',
-            S: 'minecraft:string'
-        })
-        
-        // Crossbows Recipes
-        event.shaped(Item.of('ilikewood:' + element + '_crossbow', 1), [
-            'WIW',
-            'STS',
-            ' W '
-        ], {
-            W: 'ilikewood:' + element + 'stick',
-            I: 'minecraft:iron_ingot',
-            S: 'minecraft:string',
-            T: 'minecraft:tripwire_hook'
-        }
     })
     
     // Vanilla Miscellaneous removed
