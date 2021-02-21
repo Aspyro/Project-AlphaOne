@@ -3,6 +3,8 @@ console.info('Integrates I Like Wood')
 onEvent('recipes', event => {
 
     var woodsList = ['oak', 'birch', 'spruce', 'jungle', 'dark_oak', 'acacia', 'crimson', 'warped']
+    var colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray',
+                  'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
     
     woodsList.forEach( element => {
 
@@ -197,6 +199,103 @@ onEvent('recipes', event => {
         L: 'minecraft:lava_bucket',
         N: 'minecraft:nether_star',
         S: '#ilikewood:sticks'
+    })
+    
+    // Beds
+    
+    colors.forEach(element => {
+        event.remove({output: 'minecraft:' + element + '_bed'})
+        woodsList.forEach( wood => {
+            event.shaped(Item.of('ilikewood:' + element + '_' + wood + '_bed', 1), [
+                'WWW',
+                'PPP'
+            ], {
+                W: 'minecraft:' + element + '_wool',
+                P: 'minecraft:' + wood + '_planks'
+            })
+            event.shaped(Item.of('ilikewood:' + element + '_' + wood + '_bed', 1), [
+                'WWW',
+                'PPP',
+            ], {
+                W: 'minecraft:' + element + '_wool',
+                P: 'ilikewood:' + wood + '_panels'
+            })
+            event.shapeless('ilikewood:' + element + '_' + wood + '_bed', 
+                            ['ilikewood:white_' + wood + '_bed', 'minecraft:' + element + '_dye'])
+        })
+    })
+    
+    // Pressure Plates & Buttons & boats
+    
+    woodsList.forEach( wood => {
+        event.shaped(Item.of('minecraft:' + wood + '_pressure_plate', 1), [
+            'PP'
+        ], {
+            P: 'ilikewood:' + wood + '_panels'
+        })
+        event.shapeless('minecraft:' + wood + '_button', ['ilikewood:' + wood + '_panels'])
+        event.shaped(Item.of('minecraft:' + wood + '_boat', 1), [
+            'P P',
+            'PPP
+        ], {
+            P: 'ilikewood:' + wood + '_panels'
+        })
+    })
+    
+    // Bookshelves
+    
+    event.remove({output: 'minecraft:bookshelf'})
+    woodsList.forEach( wood => {
+        event.shaped(Item.of('ilikewood:' + wood + '_bookshelf', 1), [
+            'PPP',
+            'BBB',
+            'PPP'
+        ], {
+            P: 'minecraft:' + wood + '_planks',
+            B: 'minecraft:book'
+        })
+    })
+    
+    // Bowl
+    event.shaped(Item.of('minecraft:bowl', 4), [
+        'P P',
+        ' P '
+    ], {
+        P: '#ilikewood:panels'
+    })
+    
+    // Shield
+    event.shaped(Item.of('minecraft:shield', 1), [
+        'PIP',
+        'PPP',
+        ' P ',
+    ], {
+        P: '#ilikewood:panels',
+        I: 'minecraft:iron_ingot'
+    })
+    
+    // Crafting tables
+    event.remove({output: 'minecraft:crafting_table'})
+    event.remove({output: 'craftingstation:crafting_station'})
+    event.shapeless('craftingstation:crafting_station'}, ['#ilikewood:crafting_tables'])
+    
+    // Vanilla Grindstone
+    event.remove({output: 'minecraft:grindstone'})
+    event.shaped(Item.of('minecraft:grindstone', 1), [
+        'SsS',
+        'P P'
+    ], {
+        S: '#ilikewood:sticks',
+        s: 'minecraft:stone_slab',
+        P: '#minecraft:planks'
+    })
+    event.shaped(Item.of('minecraft:grindstone', 1), [
+        'SsS',
+        'P P'
+    ], {
+        S: '#ilikewood:sticks',
+        s: 'minecraft:stone_slab',
+        P: '#ilikewood_panels'
     })
     
 })
