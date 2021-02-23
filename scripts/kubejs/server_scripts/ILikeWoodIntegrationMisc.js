@@ -236,7 +236,7 @@ onEvent('recipes', event => {
         event.shapeless('minecraft:' + wood + '_button', ['ilikewood:' + wood + '_panels'])
         event.shaped(Item.of('minecraft:' + wood + '_boat', 1), [
             'P P',
-            'PPP
+            'PPP'
         ], {
             P: 'ilikewood:' + wood + '_panels'
         })
