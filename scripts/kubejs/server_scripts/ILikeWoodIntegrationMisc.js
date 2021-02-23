@@ -298,7 +298,7 @@ onEvent('recipes', event => {
         P: '#ilikewood_panels'
     })
     
-    // Barrels
+    // Barrels & Chests
     event.remove({output: 'minecraft:barrel'})
     event.remove({input: 'minecraft:barrel'})
     event.remove({output: 'minecraft:chest'})
@@ -535,4 +535,65 @@ onEvent('recipes', event => {
             P: 'minecraft:ender_pearl'
         })
     })
+    
+    event.remove({output: 'minecraft:composter'})
+    event.remove({output: 'minecraft:lectern'})
+    
+    woodsList.forEach( element => {
+        // Trapdoors
+        event.shaped(Item.of('minecraft:' + element + '_trapdoor', 1), [
+            'PPP',
+            'PPP'
+        ], {
+            P: 'ilikewood:' + element + '_panels'
+        })
+        
+        // Doors
+        event.shaped(Item.of('minecraft:' + element + '_door', 3), [
+            'PP',
+            'PP',
+            'PP'
+        ], {
+            P: 'ilikewood:' + element + '_panels'
+        })
+        
+        //Aquaculture Worm Farm
+        event.shaped(Item.of('aquaculture:worm_farm', 1), [
+            'F F',
+            'FDF',
+            'PPP',
+        ], {
+            F: '#minecraft:wooden_fences',
+            D: 'minecraft:dirt',
+            P: 'ilikewood:' + element + '_panels'
+        })
+        
+        // Composters
+        event.remove({output: 'ilikewood:' + element + '_composter'})
+        event.shaped(Item.of('ilikewood:' + element + 'composter', 1), [
+            'S S',
+            'S S',
+            'SSS'
+        ], {
+            S: 'minecraft:' + element + '_slab'
+        })
+        event.shaped(Item.of('ilikewood:' + element + 'composter', 1), [
+            'S S',
+            'S S',
+            'SSS'
+        ], {
+            S: 'ilikewood:' + element + '_panels_slab'
+        })
+        
+        // Lecterns
+        event.shaped(Item.of('ilikewood:' + element + 'composter', 1), [
+            'SSS',
+            ' B ',
+            ' S '
+        ], {
+            S: 'minecraft:' + element + '_slab',
+            B: 'ilikewood:' + element + '_bookshelf'
+        })
+    })
+    
 })
