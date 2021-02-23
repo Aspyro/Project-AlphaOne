@@ -75,6 +75,7 @@ onEvent('recipes', event => {
             P: 'minecraft:' + element + '_planks'
         })
         
+        
     })
     
     // Vanilla Miscellaneous removed
@@ -179,7 +180,7 @@ onEvent('recipes', event => {
     })
     
     // Wither Skeleton Tweaks
-    event.remove({output: 'wstweaks:blaze_blade'})
+    event.remove({'wstweaks:blaze_blade'})
     event.shaped(Item.of('wstweaks:blaze_blade', 1), [
         ' RN',
         'RNR',
@@ -190,7 +191,7 @@ onEvent('recipes', event => {
         S: '#ilikewood:sticks'
     })
     
-    event.remove({output: 'wstweaks:lava_blade'})
+    event.remove({'wstweaks:lava_blade'})
     event.shaped(Item.of('wstweaks:lava_blade', 1), [
         ' LN',
         'LNL',
@@ -213,15 +214,6 @@ onEvent('recipes', event => {
                 W: 'minecraft:' + element + '_wool',
                 P: 'minecraft:' + wood + '_planks'
             })
-            event.shaped(Item.of('ilikewood:' + element + '_' + wood + '_bed', 1), [
-                'WWW',
-                'PPP',
-            ], {
-                W: 'minecraft:' + element + '_wool',
-                P: 'ilikewood:' + wood + '_panels'
-            })
-            event.shapeless('ilikewood:' + element + '_' + wood + '_bed', 
-                            ['ilikewood:white_' + wood + '_bed', 'minecraft:' + element + '_dye'])
         })
     })
     
@@ -305,6 +297,10 @@ onEvent('recipes', event => {
     event.remove({input: 'minecraft:barrel'})
     event.remove({output: 'minecraft:chest'})
     event.remove({input: 'minecraft:chest'})
+    event.remove({output: 'simplybackpacks:uncommonbackpack'})
+    event.remove({output: 'simplybackpacks:rarebackpack'})
+    event.remove({output: 'simplybackpacks:epicbackpack'})
+    event.remove({output: 'enderstorage:ender_chest'})
     
     
     woodsList.forEach( element => {
@@ -596,6 +592,84 @@ onEvent('recipes', event => {
             S: 'minecraft:' + element + '_slab',
             B: 'ilikewood:' + element + '_bookshelf'
         })
+    })
+    // Pirates and Looters Mod
+    event.remove({output: 'piratesandlootersreborn:htr'})
+    event.shaped(Item.of('piratesandlootersreborn:htr', 3), [
+        'PSP',
+        'PSP'
+    ], {
+        P: 'piratesandlootersreborn:palm_desk',
+        S: '#ilikewood:sticks'
+    })
+    event.remove({output: 'piratesandlootersreborn:rty_5'})
+    event.shaped(Item.of('piratesandlootersreborn:rty_5', 1), [
+        'SPS',
+        'SPS'
+    ], {
+        P: 'piratesandlootersreborn:palm_desk',
+        S: '#ilikewood:sticks'
+    })
+    
+    //Fishing Rod
+    event.remove({output: 'minecraft:fishing_rod'})
+    event.shaped(Item.of('minecraft:fishing_rod', 1), [
+        '  S',
+        ' SF',
+        'S F'
+    ], {
+        S: '#ilikewood:sticks',
+        F: 'minecraft:string'
+    })
+    
+    // Sticks from logs
+    event.shaped(Item.of('ilikewood:acacia_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:acacia_logs'
+    })
+    event.shaped(Item.of('ilikewood:birch_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:birch_logs'
+    })
+    event.shaped(Item.of('ilikewood:crimson_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:crimson_stems_logs'
+    })
+    event.shaped(Item.of('ilikewood:dark_oak_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:dark_oak_logs'
+    })
+    event.shaped(Item.of('ilikewood:jungle_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:jungle_logs'
+    })
+    event.shaped(Item.of('ilikewood:oak_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:oak_logs'
+    })
+    event.shaped(Item.of('ilikewood:spruce_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:spruce_logs'
+    })
+    event.shaped(Item.of('ilikewood:waroed_stick', 16), [
+        'L',
+        'L'
+    ], {
+        L: '#minecraft:warped_stems'
     })
     
 })
