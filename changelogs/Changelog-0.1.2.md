@@ -20,10 +20,34 @@ Updated Mods :
 
 Updated Scripts :
 
-- Removed Vanilla Tools.
+- Removed vanilla Tools.
 - Adapted the recipes for ILikeWood Wooden Tools to match their vanilla equivalent.
-- Removed Vanilla Fences and Fence Gates
+- Removed vanilla Fences and Fence Gates.
 - Adapted the recipes for ILikeWood Gates and Fence Gates to match their vanilla equivalent.
-- Adapted the recipes for Vanilla Signs to work with ILikeWood sticks and panels
-- Removed Vanilla Ladder, Item Frame, Bow, Crossbow and Stick.
+- Adapted the recipes for Vanilla Signs to work with ILikeWood sticks and panels.
+- Removed vanilla Ladder, Item Frame, Bow, Crossbow and Stick.
 - Changed recipes for Wither Skeleton Tweaks Swords, Absent by Design Log Fences, Infernal Expansion Glowlight Torch and Glowlight Campfire.
+- Removed vanilla Beds and adapted ILikeWood beds to match their vanilla equivalent.
+- Adapted vanilla Pressure Plates & Buttons recipes.
+- Adapted vanilla Shield & Grindstone & Bowl recipes.
+- Removed vanilla crafting table & Adapted ILikeWood Crafting Tables recipes & Crafting Station recipe.
+- Removed vanilla Bookshelves and adapted ILikeWood Bookshelves recipes to match their vanilla equivalent.
+- Adapted vanilla Boats recipes.
+- Removed Materials Expanded Mortars.
+- Adapted Materials Expanded Tools recipes.
+- Adapted Pirates and Looters' Pirate Spader recipe.
+- Adapted Aquaculture 2 Tools recipes.
+- Removed vanilla Barrel and adapted ILikeWood Barrels recipes.
+- Adapted Barrel Upgrades recipes.
+- Removed vanilla Chest and adapted ILikeWood Chests recipes.
+- Adapted Iron Chest Chests & Chest Upgrades recipes.
+- Adapted Minecart with Chest & Shulker & Trapped Chest & Hopper recipes.
+- Adapted Backpacks recipes.
+- Adapted Aquaculture Tackle Box recipe.
+- Adapted EnderStorage EnderChest recipe.
+- Adapted Upper recipe.
+- Adapted Trapdoors recipes.
+- Adapted Doors recipes.
+- Adapted Aquaculture Worm Farm recipes.
+- Removed vanilla Composter and adapted ILikeWood Composters recipes.
+- Removed vanilla Lectern and adapted ILikeWood Lecterns recipes.
