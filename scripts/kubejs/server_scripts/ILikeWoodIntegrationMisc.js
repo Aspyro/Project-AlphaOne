@@ -277,7 +277,7 @@ onEvent('recipes', event => {
     // Crafting tables
     event.remove({output: 'minecraft:crafting_table'})
     event.remove({output: 'craftingstation:crafting_station'})
-    event.shapeless('craftingstation:crafting_station'}, ['#ilikewood:crafting_tables'])
+    event.shapeless('craftingstation:crafting_station', ['#ilikewood:crafting_tables'])
     
     // Vanilla Grindstone
     event.remove({output: 'minecraft:grindstone'})
