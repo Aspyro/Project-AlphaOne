@@ -235,7 +235,7 @@ onEvent('recipes', event => {
         ' N ',
         'S  '
     ], {
-        N: 'aquaculture_neptunium_ingot',
+        N: 'aquaculture:neptunium_ingot',
         S: '#ilikewood:sticks'
     })
     
