@@ -298,4 +298,241 @@ onEvent('recipes', event => {
         P: '#ilikewood_panels'
     })
     
+    // Barrels
+    event.remove({output: 'minecraft:barrel'})
+    event.remove({input: 'minecraft:barrel'})
+    event.remove({output: 'minecraft:chest'})
+    event.remove({input: 'minecraft:chest'})
+    
+    
+    woodsList.forEach( element => {
+        event.shaped(Item.of('ilikewood:' + element + '_barrel', 1), [
+            'PSP'
+            'P P',
+            'PSP',
+        ], {
+            P: 'minecraft:' + element + '_planks',
+            S: 'minecraft:' + element + '_slab'
+        })
+        
+        // FLuidtank Chest as Tank
+        event.shaped(Item.of('fluidtank:chest_as_tank', 1), [
+            'T T',
+            'TBT',
+            'TTT'
+        ], {
+            T: 'fluidtank:tank_wood',
+            B: 'ilikewood:' + element + '_barrel'
+        })
+        
+        // Metal Barrels
+        event.shaped(Item.of('metalbarrels:gold_barrel', 1), [
+            'GIG',
+            'IBI',
+            'GIG'
+        ], {
+            G: 'minecraft:gold_ingot',
+            I: 'minecraft:iron_ingot',
+            B: 'ilikewood:' + element + '_barrel'
+        })
+        event.shaped(Item.of('metalbarrels:iron_barrel', 1), [
+            ' I ',
+            'IBI',
+            ' I '
+        ], {
+            I: 'minecraft:iron_ingot',
+            B: 'ilikewood:' + element + '_barrel'
+        })
+        event.shaped(Item.of('metalbarrels:copper_barrel', 1), [
+            'CBC'
+        ], {
+            C: 'matex:ingotcopper',
+            B: 'ilikewood:' + element + '_barrel'
+        })
+        
+        // Metal Barrels upgrades
+        event.shaped(Item.of('metalbarrels:wood_to_copper', 1), [
+            'CPC'
+        ], {
+            C: 'matex:ingotcopper',
+            B: 'ilikewood:' + element + '_panels'
+        })
+        event.shaped(Item.of('metalbarrels:wood_to_iron', 1), [
+            ' I ',
+            'IPI',
+            ' I '
+        ], {
+            I: 'minecraft:iron_ingot',
+            P: 'ilikewood:' + element + '_panels'
+        })
+        
+        // Chests
+        event.shaped(Item.of('ilikewood:' + element + '_chest', 1), [
+            'PPP',
+            'P P',
+            'PPP'
+        ], {
+            P: 'minecraft:' + element + '_planks'
+        })
+        event.shaped(Item.of('fluidtank:chest_as_tank', 1), [
+            'T T',
+            'TCT',
+            'TTT'
+        ], {
+            T: 'fluidtank:tank_wood',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        
+        // Iron Chests
+        event.shaped(Item.of('ironchest:dirt_chest', 1), [
+            'DDD',
+            'DCD',
+            'DDD'
+        ], {
+            D: 'minecraft:dirt',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        
+        event.shaped(Item.of('ironchest:copper_chest', 1), [
+            'III',
+            'ICI',
+            'III'
+        ], {
+            I: 'matex:ingotcopper',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        event.shaped(Item.of('ironchest:iron_chest', 1), [
+            'III',
+            'ICI',
+            'III'
+        ], {
+            I: 'minecraft:iron_ingot',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        
+        // Iron Chest Upgrades
+        event.shaped(Item.of('ironchest:wood_to_copper_chest_upgrade', 1), [
+            'III',
+            'IPI',
+            'III'
+        ], {
+            I: 'matex:ingotcopper',
+            P: 'ilikewood:' + element + '_panels'
+        })
+        event.shaped(Item.of('ironchest:wood_to_iron_chest_upgrade', 1), [
+            'III',
+            'IPI',
+            'III'
+        ], {
+            I: 'minecraft:iron_ingot',
+            P: 'ilikewood:' + element + '_panels'
+        })
+        
+        // Vanilla Crafts
+        event.shapeless('minecraft:trapped_chest', 
+                        ['ilikewood:' + element + '_chest', 'minecraft:tripwire_hook'])
+        event.shaped(Item.of('minecraft:hopper', 1), [
+            'I I',
+            'ICI',
+            ' I '
+        ], {
+            I: 'minecraft:iron_ingot',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        event.shaped(Item.of('minecraft:chest_minecraft', 1), [
+            'C',
+            'M',
+        ], {
+            C: 'ilikewood:' + element + '_chest',
+            M: 'minecraft:minecart'
+        })
+        event.shaped(Item.of('minecraft:shulker_box', 1), [
+            'S',
+            'C',
+            'S'
+        ], {
+            S: 'minecraft:shulker_shell',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        
+        // Upper
+        event.shaped(Item.of('uppers:upper', 1), [
+            ' I ',
+            'ICI',
+            'I I'
+        ], {
+            I: 'minecraft:iron_ingot',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        
+        // Backpacks
+        event.shaped(Item.of('simplybackpacks:commonbackpack', 1), [
+            'S S',
+            'WLW',
+            'LCL'
+        ], {
+            S: 'minecraft:string',
+            W: 'minecraft:white_dye',
+            L: 'minecraft:leather',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        event.shaped(Item.of('simplybackpacks:uncommonbackpack', 1), [
+            'G G',
+            'DPD',
+            'CBC'
+        ], {
+            G: 'minecraft:gold_ingot',
+            Y: 'minecraft:yellow_dye',
+            P: 'simplybackpacks:commonbackpack',
+            B: 'minecraft:gold_block',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        event.shaped(Item.of('simplybackpacks:rarebackpack', 1), [
+            'D D',
+            'bPb',
+            'CBC'
+        ], {
+            D: 'minecraft:diamond',
+            b: 'minecraft:blue_dye',
+            P: 'simplybackpacks:uncommonbackpack',
+            C: 'ilikewood:' + element + '_chest',
+            B: 'minecraft:diamond_block'
+        })
+        event.shaped(Item.of('simplybackpacks:epicbackpack', 1), [
+            'M M',
+            'IBI',
+            'CNC'
+        ], {
+            M: 'minecraft:magenta_dye',
+            I: 'minecraft:iron_bars',
+            B: 'simplybackpacks:rarebackpacks',
+            N: 'minecraft:nether_star',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        
+        // Aquaculture
+        event.shaped(Item.of('aquaculture:tackle_box', 1), [
+            'GIG',
+            'ICI',
+            'IBI'
+        ], {
+            G: '#aquaculture:tackle_box_green',
+            I: 'minecraft:iron_bars',
+            B: 'minecraft:iron_block',
+            C: 'ilikewood:' + element + '_chest'
+        })
+        
+        // EnderStorage
+        event.shaped(Item.of('enderstorage:ender_chest', 1), [
+            'BWB',
+            'OCO',
+            'BPB'
+        ], {
+            B: 'minecraft:blaze_rod',
+            W: '#forge:wool',
+            O: 'minecraft:obsidian',
+            C: 'ilikewood:' + element + '_chest',
+            P: 'minecraft:ender_pearl'
+        })
+    })
 })
