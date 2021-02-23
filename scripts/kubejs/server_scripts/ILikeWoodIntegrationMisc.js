@@ -507,7 +507,7 @@ onEvent('recipes', event => {
         ], {
             M: 'minecraft:magenta_dye',
             I: 'minecraft:iron_bars',
-            B: 'simplybackpacks:rarebackpacks',
+            B: 'simplybackpacks:rarebackpack',
             N: 'minecraft:nether_star',
             C: 'ilikewood:' + element + '_chest'
         })
@@ -572,7 +572,7 @@ onEvent('recipes', event => {
         
         // Composters
         event.remove({output: 'ilikewood:' + element + '_composter'})
-        event.shaped(Item.of('ilikewood:' + element + 'composter', 1), [
+        event.shaped(Item.of('ilikewood:' + element + '_composter', 1), [
             'S S',
             'S S',
             'SSS'
