@@ -588,7 +588,7 @@ onEvent('recipes', event => {
         })
         
         // Lecterns
-        event.shaped(Item.of('ilikewood:' + element + '_composter', 1), [
+        event.shaped(Item.of('ilikewood:' + element + '_lectern', 1), [
             'SSS',
             ' B ',
             ' S '
