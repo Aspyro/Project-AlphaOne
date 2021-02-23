@@ -234,12 +234,14 @@ onEvent('recipes', event => {
             P: 'ilikewood:' + wood + '_panels'
         })
         event.shapeless('minecraft:' + wood + '_button', ['ilikewood:' + wood + '_panels'])
-        event.shaped(Item.of('minecraft:' + wood + '_boat', 1), [
-            'P P',
-            'PPP'
-        ], {
-            P: 'ilikewood:' + wood + '_panels'
-        })
+        if ((wood != 'crimson') && (wood!='warped')) {
+            event.shaped(Item.of('minecraft:' + wood + '_boat', 1), [
+                'P P',
+                'PPP'
+            ], {
+                P: 'ilikewood:' + wood + '_panels'
+            })
+        }
     })
     
     // Bookshelves
@@ -295,7 +297,7 @@ onEvent('recipes', event => {
     ], {
         S: '#ilikewood:sticks',
         s: 'minecraft:stone_slab',
-        P: '#ilikewood_panels'
+        P: '#ilikewood:panels'
     })
     
     // Barrels & Chests
@@ -355,7 +357,7 @@ onEvent('recipes', event => {
             'CPC'
         ], {
             C: 'matex:ingotcopper',
-            B: 'ilikewood:' + element + '_panels'
+            P: 'ilikewood:' + element + '_panels'
         })
         event.shaped(Item.of('metalbarrels:wood_to_iron', 1), [
             ' I ',
@@ -439,7 +441,7 @@ onEvent('recipes', event => {
             I: 'minecraft:iron_ingot',
             C: 'ilikewood:' + element + '_chest'
         })
-        event.shaped(Item.of('minecraft:chest_minecraft', 1), [
+        event.shaped(Item.of('minecraft:chest_minecart', 1), [
             'C',
             'M',
         ], {
@@ -478,7 +480,7 @@ onEvent('recipes', event => {
         })
         event.shaped(Item.of('simplybackpacks:uncommonbackpack', 1), [
             'G G',
-            'DPD',
+            'YPY',
             'CBC'
         ], {
             G: 'minecraft:gold_ingot',
@@ -489,11 +491,11 @@ onEvent('recipes', event => {
         })
         event.shaped(Item.of('simplybackpacks:rarebackpack', 1), [
             'D D',
-            'bPb',
+            'APA',
             'CBC'
         ], {
             D: 'minecraft:diamond',
-            b: 'minecraft:blue_dye',
+            A: 'minecraft:blue_dye',
             P: 'simplybackpacks:uncommonbackpack',
             C: 'ilikewood:' + element + '_chest',
             B: 'minecraft:diamond_block'
@@ -577,7 +579,7 @@ onEvent('recipes', event => {
         ], {
             S: 'minecraft:' + element + '_slab'
         })
-        event.shaped(Item.of('ilikewood:' + element + 'composter', 1), [
+        event.shaped(Item.of('ilikewood:' + element + '_composter', 1), [
             'S S',
             'S S',
             'SSS'
@@ -586,7 +588,7 @@ onEvent('recipes', event => {
         })
         
         // Lecterns
-        event.shaped(Item.of('ilikewood:' + element + 'composter', 1), [
+        event.shaped(Item.of('ilikewood:' + element + '_composter', 1), [
             'SSS',
             ' B ',
             ' S '
