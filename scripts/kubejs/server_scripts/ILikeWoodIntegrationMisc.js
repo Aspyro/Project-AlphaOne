@@ -307,9 +307,9 @@ onEvent('recipes', event => {
     
     woodsList.forEach( element => {
         event.shaped(Item.of('ilikewood:' + element + '_barrel', 1), [
-            'PSP'
-            'P P',
             'PSP',
+            'P P',
+            'PSP'
         ], {
             P: 'minecraft:' + element + '_planks',
             S: 'minecraft:' + element + '_slab'
