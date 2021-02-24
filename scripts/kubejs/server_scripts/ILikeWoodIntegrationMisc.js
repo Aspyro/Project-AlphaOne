@@ -180,7 +180,7 @@ onEvent('recipes', event => {
     })
     
     // Wither Skeleton Tweaks
-    event.remove({'wstweaks:blaze_blade'})
+    event.remove({output: 'wstweaks:blaze_blade'})
     event.shaped(Item.of('wstweaks:blaze_blade', 1), [
         ' RN',
         'RNR',
@@ -191,7 +191,7 @@ onEvent('recipes', event => {
         S: '#ilikewood:sticks'
     })
     
-    event.remove({'wstweaks:lava_blade'})
+    event.remove({output: 'wstweaks:lava_blade'})
     event.shaped(Item.of('wstweaks:lava_blade', 1), [
         ' LN',
         'LNL',
@@ -639,7 +639,7 @@ onEvent('recipes', event => {
         'L',
         'L'
     ], {
-        L: '#minecraft:crimson_stems_logs'
+        L: '#minecraft:crimson_stems'
     })
     event.shaped(Item.of('ilikewood:dark_oak_stick', 16), [
         'L',
@@ -665,7 +665,7 @@ onEvent('recipes', event => {
     ], {
         L: '#minecraft:spruce_logs'
     })
-    event.shaped(Item.of('ilikewood:waroed_stick', 16), [
+    event.shaped(Item.of('ilikewood:warped_stick', 16), [
         'L',
         'L'
     ], {
