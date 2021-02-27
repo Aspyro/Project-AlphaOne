@@ -11,5 +11,5 @@ onEvent('recipes', event => {
   dustReplace('grinder:tin_dust', 'matex:dusttin', '#forge:dusts/tin')    // Tin Dust
   dustReplace('grinder:lead_dust', 'matex:dustlead', '#forge:dusts/lead')  // Lead Dust
   dustReplace('grinder:silver_dust', 'matex:dustsilver', '#forge:dusts/silver')  // Silver Dust
-  dustReplace('grinder:osmium_dust', 'matex:dustosmium', '#forge:dusts/silver')  // Osmium Dust
+  dustReplace('grinder:osmium_dust', 'matex:dustosmium', '#forge:dusts/osmium')  // Osmium Dust
 })
