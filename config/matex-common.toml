@@ -169,7 +169,7 @@
 	#Saltpeter settings
 	[metals.saltpeter]
 		#Enable Saltpeter ore generation (default: true)
-		enableSaltpeter = true
+		enableSaltpeter = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSSaltpeter = 12
@@ -203,7 +203,7 @@
 	#Sulfur settings
 	[metals.sulfur]
 		#Enable Sulfur ore generation (default: true)
-		enableSulfur = true
+		enableSulfur = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSSulfur = 12
