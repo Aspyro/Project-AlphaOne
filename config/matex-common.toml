@@ -67,7 +67,7 @@
 	#Aluminium settings
 	[metals.aluminium]
 		#Enable Aluminium ore generation (default: true)
-		enableAluminium = true
+		enableAluminium = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSAluminium = 8
