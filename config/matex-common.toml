@@ -271,7 +271,7 @@
 	#Tungsten settings
 	[metals.tungsten]
 		#Enable Tungsten ore generation (default: true)
-		enableTungsten = true
+		enableTungsten = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSTungsten = 8
