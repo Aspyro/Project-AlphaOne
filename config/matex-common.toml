@@ -220,7 +220,7 @@
 	#Thorium settings
 	[metals.thorium]
 		#Enable Thorium ore generation (default: true)
-		enableThorium = true
+		enableThorium = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSThorium = 2
