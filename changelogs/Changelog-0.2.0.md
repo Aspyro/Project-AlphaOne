@@ -1,6 +1,6 @@
 Project AlphaOne 0.2.0
 
-> Minecraft Version : updated to 1.16.5
+> Minecraft Version : updated to 1.16.5  
 > Forge Version : updated to forge-36.1.3
 
 # Modlist
