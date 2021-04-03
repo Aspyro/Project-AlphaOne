@@ -152,7 +152,7 @@
 	#Platinum settings
 	[metals.platinum]
 		#Enable Platinum ore generation (default: true)
-		enablePlatinum = true
+		enablePlatinum = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSPlatinum = 8
