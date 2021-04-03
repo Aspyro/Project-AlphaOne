@@ -288,7 +288,7 @@
 	#Uranium settings
 	[metals.uranium]
 		#Enable Uranium ore generation (default: true)
-		enableUranium = true
+		enableUranium = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSUranium = 1
