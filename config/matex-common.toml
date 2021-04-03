@@ -305,7 +305,7 @@
 	#Zinc settings
 	[metals.zinc]
 		#Enable Zinc ore generation (default: true)
-		enableZinc = true
+		enableZinc = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSZinc = 8
