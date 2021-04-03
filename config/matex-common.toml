@@ -135,7 +135,7 @@
 	#Osmium settings
 	[metals.osmium]
 		#Enable Osmium ore generation (default: true)
-		enableOsmium = true
+		enableOsmium = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSOsmium = 8
