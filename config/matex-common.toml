@@ -1,0 +1,321 @@
+
+#Materials Expanded config
+[matex]
+
+	#General settings
+	[matex.general]
+		#Enable all ore generation (default: true)
+		enableOreGen = true
+		#Enable metal blocks (default: true)
+		enableMetalBlocks = true
+		#Enable dusts (default: true)
+		enableDusts = true
+		#Enable nuggets (default: true)
+		enableNuggets = true
+		#Enable coal/charcoal nuggets (default: true)
+		enableCoalNuggets = true
+		#Enable mortar tools (default: true)
+		enableMortar = true
+		#Enable hammer tools (default: true)
+		enableHammer = true
+		#Enable all metal armor (default: true)
+		enableArmor = true
+		#Enable all metal tools (default: true)
+		enableTools = true
+
+#Material settings
+[materials]
+
+	#Terracotta settings
+	[materials.terracotta]
+		#Enable underground Terracotta generation (default: true)
+		enableTerracotta = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSTerracotta = 6
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCTerracotta = 32
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightTerracotta = 16
+
+	#Clay settings
+	[materials.clay]
+		#Enable underground Clay generation (default: true)
+		enableClay = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSClay = 12
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCClay = 16
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightClay = 56
+
+#Tools/armor settings
+[equipment]
+	#Enable all tool items (default: true)
+	enableTools = true
+	#Enable all armor items (default: true)
+	enableArmor = true
+
+#Metals settings
+[metals]
+
+	#Aluminium settings
+	[metals.aluminium]
+		#Enable Aluminium ore generation (default: true)
+		enableAluminium = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSAluminium = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCAluminium = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightAluminium = 56
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestAluminium = 1
+
+	#Copper settings
+	[metals.copper]
+		#Enable Copper ore generation (default: true)
+		enableCopper = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSCopper = 12
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCCopper = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightCopper = 76
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestCopper = 1
+
+	#Lead settings
+	[metals.lead]
+		#Enable Lead ore generation (default: true)
+		enableLead = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSLead = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCLead = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightLead = 56
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestLead = 1
+
+	#Nickel settings
+	[metals.nickel]
+		#Enable Nickel ore generation (default: true)
+		enableNickel = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSNickel = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCNickel = 48
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightNickel = 56
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestNickel = 2
+
+	#Osmium settings
+	[metals.osmium]
+		#Enable Osmium ore generation (default: true)
+		enableOsmium = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSOsmium = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCOsmium = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightOsmium = 56
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestOsmium = 2
+
+	#Platinum settings
+	[metals.platinum]
+		#Enable Platinum ore generation (default: true)
+		enablePlatinum = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSPlatinum = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCPlatinum = 32
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightPlatinum = 24
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestPlatinum = 2
+
+	#Saltpeter settings
+	[metals.saltpeter]
+		#Enable Saltpeter ore generation (default: true)
+		enableSaltpeter = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSSaltpeter = 12
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCSaltpeter = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightSaltpeter = 72
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestSaltpeter = 0
+
+	#Silver settings
+	[metals.silver]
+		#Enable Silver ore generation (default: true)
+		enableSilver = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSSilver = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCSilver = 32
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightSilver = 32
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestSilver = 2
+
+	#Sulfur settings
+	[metals.sulfur]
+		#Enable Sulfur ore generation (default: true)
+		enableSulfur = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSSulfur = 12
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCSulfur = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightSulfur = 72
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestSulfur = 0
+
+	#Thorium settings
+	[metals.thorium]
+		#Enable Thorium ore generation (default: true)
+		enableThorium = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSThorium = 2
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCThorium = 32
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightThorium = 24
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestThorium = 3
+
+	#Tin settings
+	[metals.tin]
+		#Enable Tin ore generation (default: true)
+		enableTin = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSTin = 12
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCTin = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightTin = 60
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestTin = 1
+
+	#Titanium settings
+	[metals.titanium]
+		#Enable Titanium ore generation (default: true)
+		enableTitanium = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSTitanium = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCTitanium = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightTitanium = 48
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestTitanium = 2
+
+	#Tungsten settings
+	[metals.tungsten]
+		#Enable Tungsten ore generation (default: true)
+		enableTungsten = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSTungsten = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCTungsten = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightTungsten = 48
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestTungsten = 2
+
+	#Uranium settings
+	[metals.uranium]
+		#Enable Uranium ore generation (default: true)
+		enableUranium = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSUranium = 1
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCUranium = 32
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightUranium = 24
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestUranium = 3
+
+	#Zinc settings
+	[metals.zinc]
+		#Enable Zinc ore generation (default: true)
+		enableZinc = true
+		#Vein size
+		#Range: 0 ~ 50
+		VSZinc = 8
+		#Chunk spawn frequency
+		#Range: 0 ~ 128
+		VPCZinc = 56
+		#Maximum height
+		#Range: 0 ~ 255
+		MaxHeightZinc = 48
+		#Harvest level
+		#Range: 0 ~ 4
+		HarvestZinc = 2
+
