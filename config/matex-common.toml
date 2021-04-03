@@ -118,7 +118,7 @@
 	#Nickel settings
 	[metals.nickel]
 		#Enable Nickel ore generation (default: true)
-		enableNickel = true
+		enableNickel = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSNickel = 8
