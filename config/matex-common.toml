@@ -254,7 +254,7 @@
 	#Titanium settings
 	[metals.titanium]
 		#Enable Titanium ore generation (default: true)
-		enableTitanium = true
+		enableTitanium = false
 		#Vein size
 		#Range: 0 ~ 50
 		VSTitanium = 8
