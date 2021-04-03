@@ -13,11 +13,11 @@
 		#Enable nuggets (default: true)
 		enableNuggets = true
 		#Enable coal/charcoal nuggets (default: true)
-		enableCoalNuggets = true
+		enableCoalNuggets = false
 		#Enable mortar tools (default: true)
-		enableMortar = true
+		enableMortar = false
 		#Enable hammer tools (default: true)
-		enableHammer = true
+		enableHammer = false
 		#Enable all metal armor (default: true)
 		enableArmor = true
 		#Enable all metal tools (default: true)
